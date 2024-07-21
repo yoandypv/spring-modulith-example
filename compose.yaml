@@ -1,0 +1,6 @@
+services:
+  zpikin:
+    image: openzipkin/zipkin:latest
+    container_name: zipkin2
+    ports:
+      - 9411:9411
